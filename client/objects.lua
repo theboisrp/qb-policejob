@@ -78,6 +78,21 @@ RegisterNetEvent('police:client:spawnCone', function()
     end)
 end)
 
+RegisterNetEvent('police:client:adcspawnBarier', function() ---Modified
+    TriggerServerEvent("police:server:spawnObject", "cbarier")
+end)
+
+RegisterNetEvent('police:client:adspawnBarier', function()
+    TriggerServerEvent("police:server:spawnObject", "barier")
+end)
+
+RegisterNetEvent('police:client:adtspawnBarier', function()
+    TriggerServerEvent("police:server:spawnObject", "tyre")
+end)
+RegisterNetEvent('police:client:adspawnBed', function()
+    TriggerServerEvent("police:server:spawnObject", "bed")
+end) ---Modified
+
 RegisterNetEvent('police:client:spawnBarrier', function()
     QBCore.Functions.Progressbar("spawn_object", Lang:t("progressbar.place_object"), 2500, false, true, {
         disableMovement = true,
