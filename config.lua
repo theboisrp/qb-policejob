@@ -3,6 +3,10 @@ Config = {}
 Config.Objects = {
     ["cone"] = {model = `prop_roadcone02a`, freeze = false},
     ["barrier"] = {model = `prop_barrier_work06a`, freeze = true},
+    ["tyre"] = {model = `prop_tyre_wall_02`, freeze = false},
+    ["bed"] = {model = `prop_rub_matress_01`, freeze = false},
+    ["schotten"] = {model = `prop_snow_sign_road_06g`, freeze = true},
+    ["cbarier"] = {model = `prop_mp_barrier_01b`, freeze = true},
     ["roadsign"] = {model = `prop_snow_sign_road_06g`, freeze = true},
     ["tent"] = {model = `prop_gazebo_03`, freeze = true},
     ["light"] = {model = `prop_worklight_03b`, freeze = true},
@@ -157,6 +161,10 @@ Config.AuthorizedVehicles = {
 		["policet"] = "Police Car 6",
 		["sheriff"] = "Sheriff Car 1",
 		["sheriff2"] = "Sheriff Car 2",
+        ["nm_avent"] = "good car", ---Modified
+        ["riot"] = "big boy",
+        ["fbi"] = "undercover 1",
+        ["fbi2"] = "undercover van",---Modified
 	}
 }
 
